@@ -207,6 +207,9 @@ html {
   box-shadow: 0 18px 40px rgba(2, 48, 110, 0.18),
     0 0 0 6px rgba(193, 168, 240, 0.35);
 }
+.tcf-photos .carousel-item {
+  transition: transform 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
 .tcf-photos .carousel-item img {
   aspect-ratio: 3 / 2;
   object-fit: cover;
